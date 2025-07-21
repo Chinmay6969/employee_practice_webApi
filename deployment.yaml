@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employeepractice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: employeepractice
+  template:
+    metadata:
+      labels:
+        app: employeepractice
+    spec:
+      containers:
+      - name: employeepractice
+        image: acrchinmay.azurecr.io/employeepractice:v1  # or your DockerHub image
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: employeepractice-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: employeepractice

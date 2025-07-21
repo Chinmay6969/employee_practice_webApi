@@ -1,0 +1,12 @@
+C:\Projects\DAL\bin\Release\net8.0\DAL.deps.json
+C:\Projects\DAL\bin\Release\net8.0\DAL.dll
+C:\Projects\DAL\bin\Release\net8.0\DAL.pdb
+C:\Projects\DAL\obj\Release\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Projects\DAL\obj\Release\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DAL\obj\Release\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Projects\DAL\obj\Release\net8.0\DAL.AssemblyInfo.cs
+C:\Projects\DAL\obj\Release\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Projects\DAL\obj\Release\net8.0\DAL.dll
+C:\Projects\DAL\obj\Release\net8.0\refint\DAL.dll
+C:\Projects\DAL\obj\Release\net8.0\DAL.pdb
+C:\Projects\DAL\obj\Release\net8.0\ref\DAL.dll
